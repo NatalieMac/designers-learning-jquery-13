@@ -1,0 +1,40 @@
+body {
+	text-align: center;
+}
+
+div {
+	background: Grey;
+	border: 1em solid DarkGrey;
+	color: Gainsboro;
+	cursor: pointer;
+	display: inline-block;
+	height: 10em;
+	line-height: 10;
+	text-align: center;
+	transition: all 1000ms;
+	width: 10em;
+}
+
+#div1.selected {
+	background-color: DeepPink;
+	border-color: HotPink;
+	color: Pink;
+}
+
+#div2.selected {
+	background-color: DarkOrchid;
+	border-color: MediumOrchid;
+	color: Violet;
+}
+
+#div3.selected {
+	background-color: MidnightBlue;
+	border-color: RoyalBlue;
+	color: LightSkyBlue;
+}
+
+#div4.selected {
+	background-color: DarkRed;
+	border-color: FireBrick;
+	color: DarkSalmon;
+}
